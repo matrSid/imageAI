@@ -33,7 +33,7 @@ async function generateImages(input) {
     const prompt = `${input} ${randomNumber}`;
     // We added random number to prompt to create different results
     const response = await fetch(
-        "https://api-inference.huggingface.co/models/fal/AuraFlow",
+        "https://api-inference.huggingface.co/models/xinsir/controlnet-union-sdxl-1.0",
         {
             method: "POST",
             headers: {
